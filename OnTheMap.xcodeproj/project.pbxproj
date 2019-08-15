@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D09A2E52303B1E700A7FD00 /* ShowAndHideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D09A2E42303B1E700A7FD00 /* ShowAndHideKeyboard.swift */; };
+		8D0D08F123045FF700A63340 /* Alert+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D08F023045FF700A63340 /* Alert+UIViewController.swift */; };
+		B20B5A3022FFFD49006905B4 /* LogoutRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B5A2F22FFFD49006905B4 /* LogoutRequest.swift */; };
+		B20B5A3223008BE8006905B4 /* LogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B5A3123008BE8006905B4 /* LogoutResponse.swift */; };
 		B2197BFC22F1F1B800045034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2197BFB22F1F1B800045034 /* AppDelegate.swift */; };
-		B2197BFE22F1F1B800045034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2197BFD22F1F1B800045034 /* ViewController.swift */; };
 		B2197C0122F1F1B800045034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2197BFF22F1F1B800045034 /* Main.storyboard */; };
 		B2197C0322F1F1BA00045034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2197C0222F1F1BA00045034 /* Assets.xcassets */; };
 		B2197C0622F1F1BA00045034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2197C0422F1F1BA00045034 /* LaunchScreen.storyboard */; };
+		B23B86EF22F540AB0081CF38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B86EE22F540AB0081CF38 /* LoginViewController.swift */; };
+		B23B86F122F543190081CF38 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B86F022F543190081CF38 /* MapViewController.swift */; };
+		B23B86F322F543270081CF38 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B86F222F543270081CF38 /* AddLocationViewController.swift */; };
+		B23B86F522F54C100081CF38 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B86F422F54C100081CF38 /* ListViewController.swift */; };
+		B23B86F922F54E140081CF38 /* UdacityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B86F822F54E140081CF38 /* UdacityClient.swift */; };
+		B2DB71DF22F7331E008AE0BF /* SessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB71DE22F7331E008AE0BF /* SessionRequest.swift */; };
+		B2DB71E122F733C4008AE0BF /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB71E022F733C4008AE0BF /* LoginResponse.swift */; };
+		B2E2646722FC6ECC00E94799 /* FindLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2646622FC6ECC00E94799 /* FindLocationViewController.swift */; };
+		B2E2855F22FB2CDE00E95B87 /* LocationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2855E22FB2CDE00E95B87 /* LocationsResponse.swift */; };
+		B2E97AD222FE752700E2AC7D /* AddLocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E97AD122FE752700E2AC7D /* AddLocationRequest.swift */; };
+		B2E97AD422FEEE3000E2AC7D /* AddLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E97AD322FEEE3000E2AC7D /* AddLocationResponse.swift */; };
+		B2E97AD622FFE4AE00E2AC7D /* AccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E97AD522FFE4AE00E2AC7D /* AccountResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D09A2E42303B1E700A7FD00 /* ShowAndHideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAndHideKeyboard.swift; sourceTree = "<group>"; };
+		8D0D08F023045FF700A63340 /* Alert+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+UIViewController.swift"; sourceTree = "<group>"; };
+		B20B5A2F22FFFD49006905B4 /* LogoutRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutRequest.swift; sourceTree = "<group>"; };
+		B20B5A3123008BE8006905B4 /* LogoutResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutResponse.swift; sourceTree = "<group>"; };
 		B2197BF822F1F1B800045034 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2197BFB22F1F1B800045034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2197BFD22F1F1B800045034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2197C0022F1F1B800045034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2197C0222F1F1BA00045034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2197C0522F1F1BA00045034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2197C0722F1F1BA00045034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23B86EE22F540AB0081CF38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B23B86F022F543190081CF38 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B23B86F222F543270081CF38 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		B23B86F422F54C100081CF38 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		B23B86F822F54E140081CF38 /* UdacityClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityClient.swift; sourceTree = "<group>"; };
+		B2DB71DE22F7331E008AE0BF /* SessionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRequest.swift; sourceTree = "<group>"; };
+		B2DB71E022F733C4008AE0BF /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		B2E2646622FC6ECC00E94799 /* FindLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLocationViewController.swift; sourceTree = "<group>"; };
+		B2E2855E22FB2CDE00E95B87 /* LocationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsResponse.swift; sourceTree = "<group>"; };
+		B2E97AD122FE752700E2AC7D /* AddLocationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationRequest.swift; sourceTree = "<group>"; };
+		B2E97AD322FEEE3000E2AC7D /* AddLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationResponse.swift; sourceTree = "<group>"; };
+		B2E97AD522FFE4AE00E2AC7D /* AccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,93 @@
 		B2197BFA22F1F1B800045034 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
-				B2197BFB22F1F1B800045034 /* AppDelegate.swift */,
-				B2197BFD22F1F1B800045034 /* ViewController.swift */,
-				B2197BFF22F1F1B800045034 /* Main.storyboard */,
-				B2197C0222F1F1BA00045034 /* Assets.xcassets */,
-				B2197C0422F1F1BA00045034 /* LaunchScreen.storyboard */,
-				B2197C0722F1F1BA00045034 /* Info.plist */,
+				B23B86F622F54D0C0081CF38 /* Models */,
+				B23B86ED22F540820081CF38 /* Supports */,
+				B23B86EB22F540550081CF38 /* Extensions */,
+				B23B86EA22F5404C0081CF38 /* Controllers */,
+				B23B86EC22F540690081CF38 /* Assets */,
 			);
 			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		B23B86EA22F5404C0081CF38 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B23B86EE22F540AB0081CF38 /* LoginViewController.swift */,
+				B23B86F222F543270081CF38 /* AddLocationViewController.swift */,
+				B23B86F422F54C100081CF38 /* ListViewController.swift */,
+				B23B86F022F543190081CF38 /* MapViewController.swift */,
+				B2E2646622FC6ECC00E94799 /* FindLocationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B23B86EB22F540550081CF38 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D09A2E42303B1E700A7FD00 /* ShowAndHideKeyboard.swift */,
+				8D0D08F023045FF700A63340 /* Alert+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B23B86EC22F540690081CF38 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B2197C0422F1F1BA00045034 /* LaunchScreen.storyboard */,
+				B2197BFF22F1F1B800045034 /* Main.storyboard */,
+				B2197C0222F1F1BA00045034 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B23B86ED22F540820081CF38 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				B2197C0722F1F1BA00045034 /* Info.plist */,
+				B2197BFB22F1F1B800045034 /* AppDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		B23B86F622F54D0C0081CF38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB71DD22F7330E008AE0BF /* Responses */,
+				B2DB71DC22F73306008AE0BF /* Requests */,
+				B23B86F722F54D950081CF38 /* Clients */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B23B86F722F54D950081CF38 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				B23B86F822F54E140081CF38 /* UdacityClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		B2DB71DC22F73306008AE0BF /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB71DE22F7331E008AE0BF /* SessionRequest.swift */,
+				B2E97AD122FE752700E2AC7D /* AddLocationRequest.swift */,
+				B20B5A2F22FFFD49006905B4 /* LogoutRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		B2DB71DD22F7330E008AE0BF /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				B2DB71E022F733C4008AE0BF /* LoginResponse.swift */,
+				B2E2855E22FB2CDE00E95B87 /* LocationsResponse.swift */,
+				B2E97AD322FEEE3000E2AC7D /* AddLocationResponse.swift */,
+				B2E97AD522FFE4AE00E2AC7D /* AccountResponse.swift */,
+				B20B5A3123008BE8006905B4 /* LogoutResponse.swift */,
+			);
+			path = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +244,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2197BFE22F1F1B800045034 /* ViewController.swift in Sources */,
+				B23B86EF22F540AB0081CF38 /* LoginViewController.swift in Sources */,
+				8D0D08F123045FF700A63340 /* Alert+UIViewController.swift in Sources */,
+				B2E97AD622FFE4AE00E2AC7D /* AccountResponse.swift in Sources */,
+				B2DB71DF22F7331E008AE0BF /* SessionRequest.swift in Sources */,
+				8D09A2E52303B1E700A7FD00 /* ShowAndHideKeyboard.swift in Sources */,
+				B23B86F122F543190081CF38 /* MapViewController.swift in Sources */,
+				B23B86F922F54E140081CF38 /* UdacityClient.swift in Sources */,
 				B2197BFC22F1F1B800045034 /* AppDelegate.swift in Sources */,
+				B2E97AD422FEEE3000E2AC7D /* AddLocationResponse.swift in Sources */,
+				B2E2855F22FB2CDE00E95B87 /* LocationsResponse.swift in Sources */,
+				B2E97AD222FE752700E2AC7D /* AddLocationRequest.swift in Sources */,
+				B20B5A3223008BE8006905B4 /* LogoutResponse.swift in Sources */,
+				B23B86F522F54C100081CF38 /* ListViewController.swift in Sources */,
+				B2DB71E122F733C4008AE0BF /* LoginResponse.swift in Sources */,
+				B20B5A3022FFFD49006905B4 /* LogoutRequest.swift in Sources */,
+				B2E2646722FC6ECC00E94799 /* FindLocationViewController.swift in Sources */,
+				B23B86F322F543270081CF38 /* AddLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +408,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQN4H56S87;
-				INFOPLIST_FILE = OnTheMap/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OnTheMap/Supports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +427,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQN4H56S87;
-				INFOPLIST_FILE = OnTheMap/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OnTheMap/Supports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

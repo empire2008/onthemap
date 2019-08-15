@@ -8,15 +8,19 @@
 
 import Foundation
 
+struct LocationsResponse:Codable {
+    let results: [LocationInfo]
+}
+
 struct LocationInfo: Codable {
-    let createdAt: String
-    let firstName: String
-    let lastName: String
-    let latitude: Double
-    let longitude: Double
-    let mapString: String
-    let mediaURL: String
-    let objectId: String
-    let uniqueKey: String
-    let updatedAt: String
+    var createdAt: String
+    var firstName: String
+    var lastName: String
+    var latitude: Double
+    var longitude: Double
+    var mapString: String
+    var mediaURL: String
+    var objectId: String
+    var uniqueKey: String
+    var updatedAt: String
 }

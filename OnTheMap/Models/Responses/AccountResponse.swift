@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct AccountResponse: Codable {
+    let user: UserInfo
+}
+
+struct UserInfo: Codable {
+    let first_name: String
+    let last_name: String
+}

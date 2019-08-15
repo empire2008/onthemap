@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct AddLocationResponse: Codable {
+    let createdAt: String
+    let objectId: String
+}
